@@ -60,7 +60,7 @@ h4 {
 }
 
 .flex {
-  background-color: aqua;
+  background-color: rgba(71, 75, 75, 0.082);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -76,3 +76,5 @@ img {
   display: inline-block;
   max-width: 100%;
 }
+
+

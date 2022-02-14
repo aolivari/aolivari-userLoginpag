@@ -1,5 +1,5 @@
 import React from "react";
-import AllUsers from "./components/AllUsers";
+import AllUsersData from "./components/AllUsersData";
 
 function Home() {
   if (!window.sessionStorage.getItem("token")) {
@@ -22,7 +22,7 @@ function Home() {
       </div>
       <h2>Welcome to Our Page</h2>
       <div>
-        <AllUsers />
+        <AllUsersData />
       </div>
     </div>
   );
